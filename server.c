@@ -79,7 +79,7 @@ void send_message_all(char *s, int connfd){
 				{
 					continue;
 				}
-                
+					
                 if(i == 0) {
                     write(connfd, retbuf, strlen(retbuf));
                 }
